@@ -1,10 +1,2 @@
-﻿  player.cpp
-C:\Users\aggpa\Documents\C++\Demo-Cpp\player.h(35,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
-  (compiling source file 'player.cpp')
-  
-C:\Users\aggpa\Documents\C++\Demo-Cpp\player.h(36,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
-  (compiling source file 'player.cpp')
-  
-C:\Users\aggpa\Documents\C++\Demo-Cpp\player.cpp(119,16): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\aggpa\Documents\C++\Demo-Cpp\player.cpp(126,16): warning C4305: '=': truncation from 'double' to 'float'
+﻿  goalpost.cpp
   Demo-Cpp.vcxproj -> C:\Users\aggpa\Documents\C++\Demo-Cpp\Demo-Cpp.exe

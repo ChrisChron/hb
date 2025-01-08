@@ -137,16 +137,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ball.cpp" />
     <ClCompile Include="gameobject.cpp" />
     <ClCompile Include="gamestate.cpp" />
+    <ClCompile Include="goalpost.cpp" />
     <ClCompile Include="level.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ball.h" />
     <ClInclude Include="box.h" />
     <ClInclude Include="gameobject.h" />
     <ClInclude Include="gamestate.h" />
+    <ClInclude Include="goalpost.h" />
     <ClInclude Include="level.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="util.h" />

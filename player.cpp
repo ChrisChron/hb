@@ -55,18 +55,15 @@ void Player::update(float dt)
 
     if (shootingLow || shootingHigh)
     {
-        shootingTimer -= delta_time; 
-        if (shootingTimer <= 0.0f)
-        {
             
             if (getName() == "p1")
-                m_brush_p1.texture = m_state->getFullAssetGamePath("player3-shoot.png");
+                m_brush_p1.texture = m_state->getFullAssetGamePath("player3.png");
             else if (getName() == "p2")
-                m_brush_p1.texture = m_state->getFullAssetGamePath("player1-shoot.png");
+                m_brush_p1.texture = m_state->getFullAssetGamePath("player1.png");
 
             shootingLow = false; 
             shootingHigh = false;
-        }
+        
     }
 	
     // Optional boundaries check

@@ -1,6 +1,7 @@
 #include "level.h"
 #include "gamestate.h"
 #include "player.h"
+#include "goalpost.h"
 
 void Level::checkPlayerCollision(Player* p1, Player* p2)
 {
@@ -48,6 +49,10 @@ void Level::update(float dt)
 		
 		m_state->getPlayer2()->update(dt);
 	}
+
+	m_state->getGoalpostLeft()->update(dt);
+	m_state->getGoalpostRight()->update(dt);
+
 	
 	checkPlayerCollision(m_state->getPlayer1() , m_state->getPlayer2());
 	GameObject::update(dt);
@@ -93,7 +98,14 @@ void Level::draw()
 	{
 		m_state->getPlayer2()->draw();
 	}
-
+	if (m_state->getGoalpostLeft()->isActive())
+	{
+		m_state->getGoalpostLeft()->draw();
+	}
+	if (m_state->getGoalpostRight()->isActive())
+	{
+		m_state->getGoalpostRight()->draw();
+	}
 	for (auto p_gob : m_static_objects) {
 		if (p_gob) p_gob->draw();
 	}

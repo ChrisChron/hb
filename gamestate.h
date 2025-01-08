@@ -18,6 +18,8 @@ private:
     class Player* m_p1 = 0;
     class Player* m_p2 = 0;
     class Ball* m_ball = 0;
+    class Goalpost* m_goalLeft = 0;
+    class Goalpost* m_goalRight = 0;
     class Level* m_current_level = 0;
 public:
     graphics::Brush m_brush_bg;
@@ -48,6 +50,8 @@ public:
 
 	class Player* getPlayer1() { return m_p1; }
     class Player* getPlayer2() { return m_p2; }
+    class Goalpost* getGoalpostLeft() { return m_goalLeft; }
+    class Goalpost* getGoalpostRight() { return m_goalRight; }
 
 
 
