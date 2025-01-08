@@ -6,23 +6,26 @@
 void Goalpost::init()
 {
 	graphics::Brush brush;
+	SETCOLOR(m_brush_post.fill_color, 1.0f, 1.0f, 1.0f);
+	m_brush_post.fill_opacity = 1.0f;
+	m_brush_post.outline_opacity = 0.0f;
+	SETCOLOR(m_brush_post.outline_color, 0.2f, 1.0f, 0.5f);
+
 
 	if (getName() == "goalLeft") {
 
-			brush.texture = m_state->getFullAssetGamePath("goal-front-left.png");
-			position_x = 3.0f;
-			position_y = 6.6f;
-		}
-	else if (getName() == "goalRight") {
-		brush.texture = m_state->getFullAssetGamePath("goal-front-right.png");
-		position_x = 8.0f;
-		position_y = 6.6f;
+		m_brush_post.texture = m_state->getFullAssetGamePath("goal-front-left.png");
+		position_x = 0.5f;
+		position_y = 5.32f;
+	
 	}
-	SETCOLOR(brush.fill_color, 1.0f, 1.0f, 1.0f);
-	brush.fill_opacity = 1.0f;
-	brush.outline_opacity = 1.0f;
-	SETCOLOR(brush.outline_color, 0.2f, 1.0f, 0.5f);
-	m_brush_post = brush;
+
+	else if (getName() == "goalRight") {
+		m_brush_post.texture = m_state->getFullAssetGamePath("goal-front-right.png");
+		position_x = m_state->getCanvasWidth()-0.5f;
+		position_y = 5.32f;
+	}
+
 
 	printf("Drawing goalpost\n");
 	printf("Goalpost position: %f, %f\n", position_x, position_y);
@@ -33,7 +36,7 @@ void Goalpost::init()
 
 void Goalpost::draw()
 {
-	graphics::drawRect(position_x, position_y, size, size, m_brush_post);
+	graphics::drawRect(position_x, position_y, 3.1f*size, size*3.8, m_brush_post);
 
 }
 

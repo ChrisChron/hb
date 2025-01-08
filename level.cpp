@@ -98,14 +98,9 @@ void Level::draw()
 	{
 		m_state->getPlayer2()->draw();
 	}
-	if (m_state->getGoalpostLeft()->isActive())
-	{
-		m_state->getGoalpostLeft()->draw();
-	}
-	if (m_state->getGoalpostRight()->isActive())
-	{
-		m_state->getGoalpostRight()->draw();
-	}
+	m_state->getGoalpostLeft()->draw();
+
+	m_state->getGoalpostRight()->draw();
 	for (auto p_gob : m_static_objects) {
 		if (p_gob) p_gob->draw();
 	}

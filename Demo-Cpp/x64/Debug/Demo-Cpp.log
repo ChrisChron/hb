@@ -1,2 +1,3 @@
 ﻿  goalpost.cpp
+C:\Users\aggpa\Documents\C++\Demo-Cpp\goalpost.cpp(39,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Demo-Cpp.vcxproj -> C:\Users\aggpa\Documents\C++\Demo-Cpp\Demo-Cpp.exe

@@ -11,7 +11,6 @@ GameState::GameState()
 }
 void GameState::init()
 {
-	graphics::preloadBitmaps(getAssetHomePath());
 	graphics::preloadBitmaps(getAssetGamePath());
 
 	m_current_level = new Level();
