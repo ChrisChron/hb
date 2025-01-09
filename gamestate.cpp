@@ -3,6 +3,7 @@
 #include <sgg/graphics.h>
 #include "level.h"
 #include "goalpost.h"
+#include "ball.h"
 GameState* GameState::m_instance = nullptr;
 
 GameState::GameState()
@@ -25,8 +26,8 @@ void GameState::init()
 	m_p2->setControls(graphics::SCANCODE_A, graphics::SCANCODE_D, graphics::SCANCODE_W, graphics::SCANCODE_S,graphics::SCANCODE_C,graphics::SCANCODE_V);
 	m_p2->init();
 
-	//m_ball = new Ball("ball");
-	//m_ball->init();
+	m_ball = new Ball("ball");
+	m_ball->init();
 
 	m_goalLeft = new Goalpost("goalLeft");
 	m_goalLeft->init();

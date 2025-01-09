@@ -23,14 +23,9 @@ private:
     class Level* m_current_level = 0;
 public:
     graphics::Brush m_brush_bg;
-
     graphics::Brush m_brush_p2;
     graphics::Brush m_brush_ball;
 
-
-    float m_ball_x = m_canvas_width / 0.5f;
-    float m_ball_y = m_canvas_height / 1.8f;
-    float m_ball_size = 1.0f;
 
     bool m_debugging = false;
 
@@ -52,6 +47,7 @@ public:
     class Player* getPlayer2() { return m_p2; }
     class Goalpost* getGoalpostLeft() { return m_goalLeft; }
     class Goalpost* getGoalpostRight() { return m_goalRight; }
+	class Ball* getBall() { return m_ball; }
 
 
 

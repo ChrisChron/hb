@@ -112,7 +112,7 @@ void Player::init()
     graphics::Brush brush;
 	if (getName() == "p1")
 	{
-		position_x = 8.0;
+		position_x = 15.0;
 		position_y = 6.6;
 
         brush.texture = m_state->getFullAssetGamePath("player3.png");

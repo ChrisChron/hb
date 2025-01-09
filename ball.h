@@ -7,13 +7,11 @@
 class Ball : public GameObject, public Box
 {
 
-    float m_width = 1.0f;
-    float m_height = 1.0f;
-    graphics::Brush m_brush_p1;
-    float size;
-    float position_x;
-    float position_y;
-    float speed = 2.3f;
+private:
+    float m_x, m_y;
+    float m_speedX, m_speedY;
+    float m_radius = 0.2f;
+	graphics::Brush m_brush;
 
 public:
     Ball(std::string name) : GameObject(name) {}

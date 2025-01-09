@@ -2,6 +2,7 @@
 #include "gamestate.h"
 #include "player.h"
 #include "goalpost.h"
+#include "ball.h"
 
 void Level::checkPlayerCollision(Player* p1, Player* p2)
 {
@@ -49,9 +50,20 @@ void Level::update(float dt)
 		
 		m_state->getPlayer2()->update(dt);
 	}
+	if (m_state->getBall()->isActive())
+	{
+		m_state->getBall()->update(dt);
+	}
+	if (m_state->getGoalpostLeft()->isActive())
+	{
+		m_state->getGoalpostLeft()->update(dt);
+	}
+	if (m_state->getGoalpostRight()->isActive())
+	{
+		m_state->getGoalpostRight()->update(dt);
+	}
 
-	m_state->getGoalpostLeft()->update(dt);
-	m_state->getGoalpostRight()->update(dt);
+
 
 	
 	checkPlayerCollision(m_state->getPlayer1() , m_state->getPlayer2());
@@ -64,9 +76,6 @@ void Level::init()
 	SETCOLOR(m_brush_bg.fill_color, 1.0f, 0.0f, 0.3f);
 	m_brush_bg.outline_opacity =1.0f;
 	m_brush_bg.fill_opacity = 1.0f;
-
-
-
 	SETCOLOR(m_brush_field.fill_color, 1.0f, 1.0f, 1.0f);
 	m_brush_field.fill_opacity = 1.0f;
 	m_brush_field.outline_opacity = 0.0f;
@@ -98,9 +107,19 @@ void Level::draw()
 	{
 		m_state->getPlayer2()->draw();
 	}
-	m_state->getGoalpostLeft()->draw();
+	if (m_state->getBall()->isActive())
+	{
+		m_state->getBall()->draw();
+	}
+	if (m_state->getGoalpostLeft()->isActive())
+	{
+		m_state->getGoalpostLeft()->draw();
+	}
+	if (m_state->getGoalpostRight()->isActive())
+	{
+		m_state->getGoalpostRight()->draw();
+	}
 
-	m_state->getGoalpostRight()->draw();
 	for (auto p_gob : m_static_objects) {
 		if (p_gob) p_gob->draw();
 	}
