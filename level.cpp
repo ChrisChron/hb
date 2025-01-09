@@ -3,6 +3,7 @@
 #include "player.h"
 #include "goalpost.h"
 #include "ball.h"
+#include "scoreboard.h"
 
 void Level::checkPlayerCollision(Player* p1, Player* p2)
 {
@@ -62,6 +63,10 @@ void Level::update(float dt)
 	{
 		m_state->getGoalpostRight()->update(dt);
 	}
+	if (m_state->getScoreboard()->isActive())
+	{
+		m_state->getScoreboard()->update(dt);
+	}
 
 
 
@@ -87,6 +92,8 @@ void Level::init()
 	for (auto p_gob : m_dynamic_objects) {
 		if (p_gob) p_gob->init();
 	}
+	
+
 
 }
 void Level::draw()
@@ -119,13 +126,17 @@ void Level::draw()
 	{
 		m_state->getGoalpostRight()->draw();
 	}
-
+	if (m_state->getScoreboard()->isActive())
+	{
+		m_state->getScoreboard()->draw();
+	}
 	for (auto p_gob : m_static_objects) {
 		if (p_gob) p_gob->draw();
 	}
 	for (auto p_gob : m_dynamic_objects) {
 		if (p_gob) p_gob->draw();
 	}
+
 }
 Level::Level(const std::string& name)
 {

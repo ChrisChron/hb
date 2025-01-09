@@ -4,6 +4,7 @@
 #include "level.h"
 #include "goalpost.h"
 #include "ball.h"
+#include "scoreboard.h"
 GameState* GameState::m_instance = nullptr;
 
 GameState::GameState()
@@ -34,6 +35,9 @@ void GameState::init()
 
 	m_goalRight = new Goalpost("goalRight");
 	m_goalRight->init();
+
+	m_scoreboard = new Scoreboard("scoreboard");
+	m_scoreboard->init();
 
 	
 }

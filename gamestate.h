@@ -21,6 +21,7 @@ private:
     class Goalpost* m_goalLeft = 0;
     class Goalpost* m_goalRight = 0;
     class Level* m_current_level = 0;
+	class Scoreboard* m_scoreboard = 0;
 public:
     graphics::Brush m_brush_bg;
     graphics::Brush m_brush_p2;
@@ -48,6 +49,7 @@ public:
     class Goalpost* getGoalpostLeft() { return m_goalLeft; }
     class Goalpost* getGoalpostRight() { return m_goalRight; }
 	class Ball* getBall() { return m_ball; }
+	class Scoreboard* getScoreboard() { return m_scoreboard; }
 
 
 

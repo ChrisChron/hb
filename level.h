@@ -5,6 +5,7 @@
 #include <vector>
 #include <list>
 #include "player.h"
+
 class Level : public GameObject
 {
 	graphics::Brush m_brush_bg;

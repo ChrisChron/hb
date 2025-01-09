@@ -3,60 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:goalpost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gamestate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:goalpost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:scoreboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gamestate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gamestate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:scoreboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:goalpost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:goalpost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|solutionrelative:gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8D91F3-2FFC-486F-99A5-032D3E72B0D4}|Demo-Cpp.vcxproj|C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -80,42 +88,64 @@
               "RelativeDocumentMoniker": "gamestate.cpp",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.cpp",
               "RelativeToolTip": "gamestate.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-17T17:53:49.482Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ball.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.h",
               "RelativeDocumentMoniker": "ball.h",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.h",
               "RelativeToolTip": "ball.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-06T19:36:12.043Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "scoreboard.cpp",
+              "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.cpp",
+              "RelativeDocumentMoniker": "scoreboard.cpp",
+              "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.cpp",
+              "RelativeToolTip": "scoreboard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T12:44:21.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "scoreboard.h",
+              "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.h",
+              "RelativeDocumentMoniker": "scoreboard.h",
+              "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\scoreboard.h",
+              "RelativeToolTip": "scoreboard.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T12:44:03.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "goalpost.cpp",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.cpp",
               "RelativeDocumentMoniker": "goalpost.cpp",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.cpp",
               "RelativeToolTip": "goalpost.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-07T09:56:50.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T09:56:50.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "player.cpp",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.cpp",
               "RelativeDocumentMoniker": "player.cpp",
@@ -123,12 +153,11 @@
               "RelativeToolTip": "player.cpp",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-17T18:41:23.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T18:41:23.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "goalpost.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\goalpost.h",
               "RelativeDocumentMoniker": "goalpost.h",
@@ -136,25 +165,23 @@
               "RelativeToolTip": "goalpost.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T09:52:44.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T09:52:44.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ball.cpp",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.cpp",
               "RelativeDocumentMoniker": "ball.cpp",
-              "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.cpp*",
-              "RelativeToolTip": "ball.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\ball.cpp",
+              "RelativeToolTip": "ball.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-06T19:36:25.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:36:25.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "box.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\box.h",
               "RelativeDocumentMoniker": "box.h",
@@ -162,8 +189,7 @@
               "RelativeToolTip": "box.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-31T10:44:39.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T10:44:39.579Z"
             },
             {
               "$type": "Document",
@@ -179,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
@@ -191,33 +217,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "level.cpp",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.cpp",
               "RelativeDocumentMoniker": "level.cpp",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.cpp",
               "RelativeToolTip": "level.cpp",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-23T11:17:56.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T11:17:56.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "gamestate.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.h",
               "RelativeDocumentMoniker": "gamestate.h",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gamestate.h",
               "RelativeToolTip": "gamestate.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T17:49:43.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T17:49:43.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "gameobject.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\gameobject.h",
               "RelativeDocumentMoniker": "gameobject.h",
@@ -229,19 +253,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "level.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.h",
               "RelativeDocumentMoniker": "level.h",
               "ToolTip": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\level.h",
               "RelativeToolTip": "level.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-17T18:12:33.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "util.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\util.h",
               "RelativeDocumentMoniker": "util.h",
@@ -253,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "player.h",
               "DocumentMoniker": "C:\\Users\\aggpa\\Documents\\C\u002B\u002B\\Demo-Cpp\\player.h",
               "RelativeDocumentMoniker": "player.h",
@@ -261,8 +285,7 @@
               "RelativeToolTip": "player.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T18:12:23.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T18:12:23.11Z"
             }
           ]
         }
