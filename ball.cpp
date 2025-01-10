@@ -30,6 +30,14 @@ void Ball::update(float dt) {
     m_x += m_speedX * delta_time;
     m_y += m_speedY * delta_time;
 
+    // Collision with screen boundaries
+    if (m_x - m_radius < 0.0f || m_x + m_radius > 1.0f) {
+        m_speedX = -m_speedX;
+    }
+    if (m_y - m_radius < 0.0f || m_y + m_radius > 1.0f) {
+        m_speedY = -m_speedY;
+    }
+
     // Check collision with ground
     if (m_y > groundLevel - m_radius ) {
         m_y = groundLevel - m_radius; // Align with the ground
@@ -44,3 +52,28 @@ void Ball::update(float dt) {
 
 }
 
+void Ball::setPosition(float x, float y) {
+    m_x = x;
+    m_y = y;
+}
+
+void Ball::setVelocity(float vx, float vy) {
+    m_speedX = vx;
+    m_speedX = vy;
+}
+
+float Ball::getX() const {
+    return m_x;
+}
+
+float Ball::getY() const {
+    return m_y;
+}
+
+float Ball::getRadius() const {
+    return m_radius;
+}
+
+Box Ball::getBoundingBox() const {
+    return Box(m_x, m_y, m_radius * 2, m_radius * 2);
+}

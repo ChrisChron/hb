@@ -36,6 +36,22 @@ void Level::checkPlayerCollision(Player* p1, Player* p2)
 	
 }
 
+void Level::checkBallCollision(Ball* ball, Player* player)
+{
+	// Get bounding boxes for the ball and the player
+	Box ballBox = ball->getBoundingBox();
+	Box playerBox = player->getBoundingBox();
+
+	// Check if they intersect
+	if (ballBox.intersect(playerBox))
+	{
+		printf("Ball collided with player!\n");
+
+		// Reverse ball's velocity
+		ball->setVelocity(-ball->getX(), ball->getY());
+	}
+}
+
 
 void Level::update(float dt)
 {
@@ -70,7 +86,8 @@ void Level::update(float dt)
 
 
 
-	
+	checkBallCollision(m_state->getBall(), m_state->getPlayer1());
+	checkBallCollision(m_state->getBall(), m_state->getPlayer2());
 	checkPlayerCollision(m_state->getPlayer1() , m_state->getPlayer2());
 	GameObject::update(dt);
 

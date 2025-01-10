@@ -5,6 +5,7 @@
 #include <vector>
 #include <list>
 #include "player.h"
+#include "ball.h"
 
 class Level : public GameObject
 {
@@ -16,6 +17,7 @@ class Level : public GameObject
 	
 
 	void checkPlayerCollision(Player* p1, Player* p2);
+	void checkBallCollision(Ball *ball, Player* player);
 public : 
 	
 	void update(float dt) override;

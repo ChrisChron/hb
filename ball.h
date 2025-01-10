@@ -7,7 +7,7 @@
 class Ball : public GameObject, public Box
 {
 
-private:
+
     float m_x, m_y;
     float m_speedX, m_speedY;
     float m_radius = 0.2f;
@@ -18,5 +18,11 @@ public:
     void init();
     void draw() override;
 	void update(float dt) override;
+    void setPosition(float x, float y);
+    void setVelocity(float vx, float vy);
+    float getX() const;
+    float getY() const;
+    float getRadius() const;
+    Box getBoundingBox() const;
 };
 
