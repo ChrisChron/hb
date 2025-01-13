@@ -1,11 +1,13 @@
 #include "ball.h"
 #include <sgg/graphics.h>
 #include "gamestate.h"
+#include <cmath>
+
 void Ball::init() {
     m_x = m_state->getCanvasWidth()/2; // Initial position
     m_y = 3.0f;
     m_speedX = 0.0f; // Initial speed
-    m_speedY = 0.04f;
+    m_speedY = 1.0f;
     m_brush.texture = m_state->getFullAssetGamePath("ball.png");
     m_brush.outline_opacity = 0.0f;
     SETCOLOR(m_brush.outline_color, 0.2f, 1.0f, 0.5f);
@@ -22,6 +24,7 @@ void Ball::update(float dt) {
     const float gravity = 9.8f * 5; // Gravity strength
     const float groundLevel = 7.3f; // Ground level
     const float bounceDamping = 0.6f; // Factor to reduce bounce height
+    const float friction = 0.995f; // Friction factor to gradually slow down
 
     // Apply gravity to vertical velocity
     m_speedY += gravity * delta_time;
@@ -30,13 +33,9 @@ void Ball::update(float dt) {
     m_x += m_speedX * delta_time;
     m_y += m_speedY * delta_time;
 
-    // Collision with screen boundaries
-    if (m_x - m_radius < 0.0f || m_x + m_radius > 1.0f) {
-        m_speedX = -m_speedX;
-    }
-    if (m_y - m_radius < 0.0f || m_y + m_radius > 1.0f) {
-        m_speedY = -m_speedY;
-    }
+    // Apply friction to the ball's velocity
+    m_speedX *= friction;
+    m_speedY *= friction;
 
     // Check collision with ground
     if (m_y > groundLevel - m_radius ) {

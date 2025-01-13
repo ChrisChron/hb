@@ -17,7 +17,7 @@ class Level : public GameObject
 	
 
 	void checkPlayerCollision(Player* p1, Player* p2);
-	void checkBallCollision(Ball *ball, Player* player);
+	void checkBallCollision(Ball *ball, Player* p1, Player* p2);
 public : 
 	
 	void update(float dt) override;

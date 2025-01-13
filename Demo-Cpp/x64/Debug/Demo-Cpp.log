@@ -1,2 +1,31 @@
-﻿  ball.cpp
-  Demo-Cpp.vcxproj -> C:\Users\aggpa\Documents\C++\Demo-Cpp\Demo-Cpp.exe
+﻿  gamestate.cpp
+C:\Users\Admin\source\repos\head3\player.h(35,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'gamestate.cpp')
+  
+C:\Users\Admin\source\repos\head3\player.h(36,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'gamestate.cpp')
+  
+  level.cpp
+C:\Users\Admin\source\repos\head3\player.h(35,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Admin\source\repos\head3\player.h(36,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Admin\source\repos\head3\level.cpp(21,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\head3\level.cpp(24,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\head3\level.cpp(31,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\head3\level.cpp(34,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\head3\level.cpp(74,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\source\repos\head3\level.cpp(79,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  player.cpp
+C:\Users\Admin\source\repos\head3\player.h(35,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'player.cpp')
+  
+C:\Users\Admin\source\repos\head3\player.h(36,29): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'player.cpp')
+  
+C:\Users\Admin\source\repos\head3\player.cpp(116,16): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Admin\source\repos\head3\player.cpp(123,16): warning C4305: '=': truncation from 'double' to 'float'
+  Generating Code...
+  Demo-Cpp.vcxproj -> C:\Users\Admin\source\repos\head3\Demo-Cpp.exe

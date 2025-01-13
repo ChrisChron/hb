@@ -16,7 +16,7 @@ class Player : public GameObject, public Box
 		std::string texturePath;
         float position_x;
         float position_y;
-        float speed = 2.3f;
+        float speed = 3.5f;
         bool shootingLow = false;
         bool shootingHigh = false;
 private: 

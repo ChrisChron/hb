@@ -5,6 +5,7 @@
 #include "ball.h"
 #include "scoreboard.h"
 
+
 void Level::checkPlayerCollision(Player* p1, Player* p2)
 {
 	// Get bounding boxes for both players
@@ -36,21 +37,60 @@ void Level::checkPlayerCollision(Player* p1, Player* p2)
 	
 }
 
-void Level::checkBallCollision(Ball* ball, Player* player)
+void Level::checkBallCollision(Ball* ball, Player* p1, Player* p2)
 {
-	// Get bounding boxes for the ball and the player
+	// Get bounding boxes for the ball and the players
 	Box ballBox = ball->getBoundingBox();
-	Box playerBox = player->getBoundingBox();
+	Box playerBox;
+	Player* collidingPlayer = nullptr;
 
-	// Check if they intersect
-	if (ballBox.intersect(playerBox))
+	// Έλεγχος αν η μπάλα συγκρούεται με κάποιον από τους παίκτες
+	if (p1->getBoundingBox().intersect(ballBox))	
 	{
-		printf("Ball collided with player!\n");
+		collidingPlayer = p1;
+		playerBox = p1->getBoundingBox();
+	}
+	else if (p2->getBoundingBox().intersect(ballBox))
+	{
+		collidingPlayer = p2;
+		playerBox = p2->getBoundingBox();
+	}
 
-		// Reverse ball's velocity
-		ball->setVelocity(-ball->getX(), ball->getY());
+	// Αν υπάρχει σύγκρουση με κάποιον παίκτη
+	if (collidingPlayer && !ball->isInCollision())
+	{
+		ball->setInCollision(true);
+		printf("Ball collided with Player %d!\n", (collidingPlayer == p1) ? 1 : 2);
+
+		// Υπολογισμός ταχύτητας
+		float playerSpeed = collidingPlayer->getSpeed();
+		float ballSpeedX = ball->getSpeedX();
+		float ballSpeedY = ball->getSpeedY();
+
+		// Determine the direction based on the player's position relative to the ball
+		if (p1->getX() < ball->getX())
+		{
+			// Player is to the left of the ball, ball should go to the right
+			ballSpeedX = fabs(ballSpeedX) * 200.0f + playerSpeed * 100.0f;
+		}
+		else
+		{
+			// Player is to the right of the ball, ball should go to the left
+			ballSpeedX = -(fabs(ballSpeedX) * 200.0f + playerSpeed * 100.0f);
+		}
+
+		// Add some randomness to the ball's speed
+		ballSpeedX += (rand() % 10 - 5) * 0.1f;
+		ballSpeedY += (rand() % 10 - 5) * 0.1f;
+
+		ball->setVelocity(ballSpeedX, ballSpeedY);
+	}
+	else if (!collidingPlayer)
+	{
+		ball->setInCollision(false);
 	}
 }
+
 
 
 void Level::update(float dt)
@@ -86,8 +126,7 @@ void Level::update(float dt)
 
 
 
-	checkBallCollision(m_state->getBall(), m_state->getPlayer1());
-	checkBallCollision(m_state->getBall(), m_state->getPlayer2());
+	checkBallCollision(m_state->getBall(), m_state->getPlayer1(), m_state->getPlayer2());
 	checkPlayerCollision(m_state->getPlayer1() , m_state->getPlayer2());
 	GameObject::update(dt);
 

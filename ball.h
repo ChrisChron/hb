@@ -7,7 +7,7 @@
 class Ball : public GameObject, public Box
 {
 
-
+    bool inCollision = false;
     float m_x, m_y;
     float m_speedX, m_speedY;
     float m_radius = 0.2f;
@@ -24,5 +24,9 @@ public:
     float getY() const;
     float getRadius() const;
     Box getBoundingBox() const;
+    float getSpeedX() const { return m_speedX; } // Getter for m_speedX
+	float getSpeedY() const { return m_speedY; } // Getter for m_speedYo
+    bool isInCollision() const { return inCollision; }
+    void setInCollision(bool state) { inCollision = state; }
 };
 
